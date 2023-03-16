@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programa</title>
+    <style>
+        body{
+            background-color: lightgray;
+            color: black;
+            font:normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+   <h1>Curso de JavaScript</h1>
+   <p>primeira aula</p> 
+   <!-- EXERCICIO 002<script>
+    var nome = window.prompt('Qual é seu nome?')
+    window.alert('É um prazer te conhecer,' + nome + '!')
+   </script>-->
+    <!-- EXERCICIO 003<script>
+        var n1 = Number.parseInt(window.prompt('Digite um número:'))
+        var n2 = Number.parseInt(window.prompt('Digite outro número:'))//ou Number(n) e ele mesmo identifica
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`) // se quisesse que soma fosse string: soma.toString() ou String(soma)
+        //window.alert('a soma dos valores é' + soma)  ((a forma acima é melhor))
+    </script>-->
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`Seu nome tem ${nome.length} letras.<br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br/>`)
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+    </script>
+</body>
+</html>
